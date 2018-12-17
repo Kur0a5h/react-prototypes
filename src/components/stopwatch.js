@@ -47,7 +47,7 @@ export default class Stopwatch extends Component{
         const {elapsed,status}=this.state;
         return(
         <div>
-            <h1>{elapsed}</h1>
+            <h1><Time elapsed={elapsed}/></h1>
             <p>{status}</p>
             <button onClick={this.start}>Start</button>
             <button onClick={this.stop}>Stop</button>
