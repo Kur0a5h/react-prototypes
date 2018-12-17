@@ -1,5 +1,6 @@
 
 import React, {Component} from 'React';
+import Time from './format_time';
 
 export default class Stopwatch extends Component{
     constructor(props){
